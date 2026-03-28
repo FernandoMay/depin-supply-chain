@@ -1,0 +1,25 @@
+{
+  "name": "depin-backend-ts",
+  "version": "1.0.0",
+  "description": "TypeScript backend for DePIN Supply Chain platform",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "Manus AI",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5"
+  }
+}

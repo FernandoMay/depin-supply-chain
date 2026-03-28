@@ -1,0 +1,8 @@
+[package]
+name = "depin_supply_chain_contracts"
+version = "0.1.0"
+
+[dependencies]
+starknet = "2.0.0-rc.0"
+
+[[target.starknet-contract]]
