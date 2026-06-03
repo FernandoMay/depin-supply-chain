@@ -1,0 +1,12 @@
+﻿# Ignore node_modules directory
+node_modules/
+
+# Ignore IDE metadata
+.idea/
+.vscode/
+
+# Ignore Docker build artifacts
+target/
+
+# Ignore other unnecessary files
+.DS_Store
